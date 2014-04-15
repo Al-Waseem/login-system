@@ -91,4 +91,12 @@ class DB {
     public function count() {
         return $this->_count;
     }
+    
+    public function results() {
+        return $this->_result;
+    }
+    
+    public function first() {
+        return $this->results()[0];
+    }
 }
