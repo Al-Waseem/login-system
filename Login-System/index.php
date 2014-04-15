@@ -6,5 +6,3 @@
  * and open the template in the editor.
  */
 require_once 'core/init.php';
-
-var_dump(Config::get('mysql/host')); //'127.0.0.1'

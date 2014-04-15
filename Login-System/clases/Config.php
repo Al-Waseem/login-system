@@ -27,5 +27,3 @@ class Config {
         return FALSE;
     }
 }
-
-echo 'waseem';
