@@ -12,5 +12,15 @@
  * @author WASEEM
  */
 class Validate {
-    //put your code here
+    private $passed = false,
+            $_errors = array(),
+            $_db = null;
+    
+    public function __construct() {
+        $this->_db = DB::getInstance();
+    }
+    
+    public function check($source, $item = array()) {
+        
+    }
 }
